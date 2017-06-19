@@ -1,4 +1,4 @@
-# Fix Drupal 3.0 Flaw
+# Fix Drupal 3.0+ Display Suite Flaw
 
 Issue detected updating Drupal v8.2.8 to v8.3.3 with the display suite module. 
 
