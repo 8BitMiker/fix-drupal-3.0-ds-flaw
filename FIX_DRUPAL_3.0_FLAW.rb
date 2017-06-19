@@ -1,6 +1,9 @@
 #!/usr/bin/ruby
 
-#!/usr/bin/ruby
+# By Michael Limberger
+
+# This script was designed to fix a particular issue 
+# Display Suite d8 v2.x --> v3.x
 
 path = nil
 
@@ -14,6 +17,8 @@ DATA.each do |line|
 	cmd = %Q{cd #{path} && #{line}}
 	puts %Q{EXECUTING: #{cmd}}
 	system cmd
+
+	# Ignore this for now
 	# if (line =~ /^drush\ up/)
 	#	puts %Q{Update Complete. Press Enter To Return...}
 	#	STDIN.gets
